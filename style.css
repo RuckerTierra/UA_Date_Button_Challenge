@@ -1,0 +1,39 @@
+/* css stylesheet */
+*, html, body {
+  margin: 0 auto;
+  padding: 0;
+}
+body {
+  margin: 50px auto;
+  background-color: rgb(241, 213, 237);
+  font-family: 'Cinzel', serif;
+}
+
+/* divs */
+div {
+  text-align: center;
+}
+#dateWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+#currentDayWrapper, #currentMonthWrapper, #currentSeasonWrapper {
+  width: 33%;
+}
+#currentDayWrapper {
+  float: left;
+}
+#currentMonthWrapper, #currentSeasonWrapper {
+  float: right;
+}
+p {
+  margin: 10px 2.5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* buttons */
+button {
+  background-color: rgb(197, 197, 248);
+  border-radius: 5px;
+  padding: 2.5px;
+}

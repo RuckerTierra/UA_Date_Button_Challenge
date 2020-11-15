@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Current [Info]</title> <!-- Change this?-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header></header>
+  <main>
+    <div id="dateWrapper">
+      <div id="currentDayWrapper">
+        <h3>Current Day</h3>
+        <p id="currentDay"></p>
+        <div>
+          <button onclick="getDay()">Click Me</button>
+        </div>
+      </div>
+      <div id="currentMonthWrapper">
+        <h3>Current Month</h3>
+        <p id="currentMonth"></p>
+        <div>
+          <button onclick="getMonth()">Click Me</button>
+        </div>
+      </div>
+      <div id="currentSeasonWrapper">
+        <h3>Current Season</h3>
+        <p id="currentSeason"></p>
+        <div>
+          <button onclick="getSeason()">Click Me</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer></footer>
+  <script src="script.js"></script>
+</body>
+</html>
