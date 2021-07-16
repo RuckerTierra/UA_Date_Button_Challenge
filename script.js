@@ -12,7 +12,7 @@ let currentDay;
 const weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 let currentMonth;
-const months = ["January", "February", "March", "April", "May", "June", "Julie", "August", "September", "October", "November", "December"];
+const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
 let currentSeason; // Spring: March 1-May 31; Summer June 1-August 31; Autumn September 1; Winter December 1-February 29.
 // Winter: December-February; Spring: March-May; Summer: June-August; Autumn: September - November
